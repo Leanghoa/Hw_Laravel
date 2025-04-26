@@ -1,6 +1,43 @@
 @extends('layouts.app')
 
 @section('content')
+<style>
+    .main-banner {
+        background: linear-gradient(to right, #6a11cb, #2575fc);
+        padding: 100px 0;
+        color: white;
+    }
+    .main-banner h2 {
+        font-size: 48px;
+        font-weight: bold;
+    }
+    .main-banner p {
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .white-button a {
+        background-color: white;
+        color: #2575fc;
+        padding: 12px 25px;
+        border-radius: 30px;
+        font-weight: bold;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        display: inline-block;
+        margin-right: 10px;
+    }
+    .white-button a:hover {
+        background-color: #2575fc;
+        color: white;
+    }
+    .right-image img {
+        max-width: 100%;
+        border-radius: 20px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    }
+</style>
+
 <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
     <div class="container">
       <div class="row">
@@ -33,5 +70,5 @@
         </div>
       </div>
     </div>
-  </div>
+</div>
 @endsection

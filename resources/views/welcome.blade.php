@@ -82,15 +82,15 @@
                                 </a>
                             </span>
                         </li>
-                        <li class="flex items-center gap-4 py-2 relative before:border-l before:border-[#e3e3e0] dark:before:border-[#3E3E3A] before:bottom-1/2 before:top-0 before:left-[0.4rem] before:absolute">
-                            <span class="relative py-1 bg-white dark:bg-[#161615]">
-                                <span class="flex items-center justify-center rounded-full bg-[#FDFDFC] dark:bg-[#161615] shadow-[0px_0px_1px_0px_rgba(0,0,0,0.03),0px_1px_2px_0px_rgba(0,0,0,0.06)] w-3.5 h-3.5 border dark:border-[#3E3E3A] border-[#e3e3e0]">
-                                    <span class="rounded-full bg-[#dbdbd7] dark:bg-[#3E3E3A] w-1.5 h-1.5"></span>
+                        <li class="flex items-center gap-3 py-3 relative before:border-l-2 before:border-gray-300 dark:before:border-gray-700 before:absolute before:top-0 before:bottom-0 before:left-2">
+                            <span class="relative bg-white dark:bg-gray-900 py-1 px-1 rounded-full">
+                                <span class="flex items-center justify-center w-4 h-4 rounded-full bg-gray-50 dark:bg-gray-800 shadow-md border border-gray-300 dark:border-gray-700">
+                                    <span class="w-2 h-2 rounded-full bg-gray-400 dark:bg-gray-600"></span>
                                 </span>
                             </span>
-                            <span>
+                            <span class="text-gray-700 dark:text-gray-300">
                                 Watch video tutorials at
-                                <a href="https://laracasts.com" target="_blank" class="inline-flex items-center space-x-1 font-medium underline underline-offset-4 text-[#f53003] dark:text-[#FF4433] ml-1">
+                                <a href="https://laracasts.com" target="_blank" class="inline-flex items-center space-x-1 font-semibold underline underline-offset-4 text-orange-600 dark:text-orange-400 ml-1">
                                     <span>Laracasts</span>
                                     <svg
                                         width="10"
@@ -98,7 +98,7 @@
                                         viewBox="0 0 10 11"
                                         fill="none"
                                         xmlns="http://www.w3.org/2000/svg"
-                                        class="w-2.5 h-2.5"
+                                        class="w-3 h-3"
                                     >
                                         <path
                                             d="M7.70833 6.95834V2.79167H3.54167M2.5 8L7.5 3.00001"
@@ -109,6 +109,7 @@
                                 </a>
                             </span>
                         </li>
+
                     </ul>
                     <ul class="flex gap-3 text-sm leading-normal">
                         <li>
